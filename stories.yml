@@ -1,0 +1,71 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ask
+
+- story: ask website
+  steps:
+  - intent: website
+  - action: utter_website
+
+- story: location
+  steps:
+  - intent: address
+  - action: utter_address
+
+- story: understood
+  steps:
+  - intent: ok
+  - action: utter_more_questions
+
+- story: event
+  steps:
+  - intent: events
+  - action: utter_events
+
+- story: bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: contacting
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: annoucements
+  steps:
+    - intent: annoucements
+    - action: utter_annoucements

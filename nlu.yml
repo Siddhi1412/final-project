@@ -1,0 +1,183 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: search_provider
+  examples: |
+    - [I need a hospital](facility type)
+    - find me a hospital
+    - counsellors near me
+    - shome me mental health centers
+    - hospital
+
+- intent: inform
+  examples: |
+    - [Andhra pradesh](location)
+    - arunachal pradesh
+    - assam
+    - bihar
+    - chhatisgarh
+    - goa
+    - gujarat
+    - haryana
+    - himachal pradesh
+    - jammmu and kashmir
+    - jharkhand
+    - karnataka
+    - kerala
+    - madhya pradesh
+    - maharastra
+    - manipur
+    - meghalaya
+    - mizoram
+    - nagaland
+    - odisha
+    - punjab
+    - rajasthan
+    - sikkim
+    - tammil nadu
+    - telangana
+    - tripura
+    - uttar pradesh
+    - uttrakhand
+    - west bengal
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - thank
+    - thank you for the help
+    - thanks for the help
+    - thanks for your help
+    - thank you for your help
+
+- intent: ok
+  examples: |
+    - ok
+    - okay
+    - k
+    - fine
+    - understood
+    - got it
+
+- intent: events
+  examples: |
+    - event
+    - events
+    - health events
+    - mental health events 
+
+- intent: contact
+  examples: |
+    - contact
+    - contact of hospital
+    - mental health help line number 
+    - helpline
+    - help number
+    - number for emergency
+
+- intent: newsletter
+  examples: |
+    - newsletter
+    - news letter
+    - newsletters
+    - news letters
+
+- intent: annoucments
+  examples: |
+    - notice
+    - notices
+    - notice board
+    - announcements
+    - announcement
+    - events held
+    - events to be held
