@@ -1,0 +1,88 @@
+version: "3.0"
+
+intents:
+
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thank
+  - bot_challenge
+  - website
+  - address
+  - ok
+  - events
+  - contact
+  - annoucements
+  - location_question
+  - location
+  - seeyou
+  - question
+  - reply
+
+entities:
+  - location
+  - facility type
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_welcome:
+    - text: "You're Welcome"
+
+  utter_ask:
+    - text: "How can I help you?"
+
+  utter_website:
+    - text: "Our College Website is: http: "
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_seeyou:
+    - text: "see you soon"
+
+  utter_iamabot:
+  - text: "I am a bot,my name is healthy from healtholic website"
+
+  utter_more_questions:
+  - text: "What more do you want to know?"
+
+  utter_address:
+  - text: " "
+
+  utter_events :
+  - text: "Check out the latest events here: http: "
+
+  utter_contact:
+  - text: "You can reach with: "
+
+  utter_notice:
+    - text: "Check out the latest Notices here: http: "
+
+  utter_annoucements:
+    - text: "Check out the latest Announcements here: http: "
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_location_question:
+  - text: "hospitals near you: "
+
+  utter_location:
+  - text: "where you stay"
+
+  utter_reply:
+  - text: "that's good to know"
+
+  utter_question:
+  - text: "i am great, amazed to be with you"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
